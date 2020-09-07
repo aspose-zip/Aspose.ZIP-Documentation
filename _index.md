@@ -19,7 +19,7 @@ Aspose.ZIP provides you the capability to password protect the ZIP archives with
 
 ## **Aspose.ZIP for .NET Resources**
 
-Following are the links to some useful resources you may need to accomplish your tasks.
+The following are the links to some useful resources you may need to accomplish your tasks.
 
 - [Aspose.ZIP for .NET Online Documentation](/zip/net/)
 - [Aspose.ZIP for .NET Features](/zip/net/features)

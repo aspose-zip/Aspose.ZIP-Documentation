@@ -16,5 +16,5 @@ This page contains release notes information for [Aspose.ZIP for .NET 20.9](http
 
 |**Key**|**Summary**|**Issue Type**|
 | :- | :- | :- |
-|ZIPNET-550|Encrypted Rar5 archive extraction.|Enhancement|
+|ZIPNET-550|Encrypted RAR5 archive extraction.|Enhancement|
 |ZIPNET-539|Support Conholdate licenses.|Enhancement|

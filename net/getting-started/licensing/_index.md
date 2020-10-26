@@ -23,7 +23,7 @@ The evaluation version of Aspose.ZIP (without a license specified) provides full
 ## **Applying a License**
 You can easily download an evaluation version of Aspose.ZIP from its [download page](https://www.nuget.org/packages/Aspose.ZIP/). The evaluation version provides absolutely the same capabilities as the licensed version of Aspose.ZIP. Furthermore, the evaluation version simply becomes licensed when you purchase a license and add a couple of lines of code to apply the license.
 ### **About the License**
-The license is a plain-text XML file that contains details such as the product name, number of developers it is licensed to, subscription expiry date and so on. The file is digitally signed, so don't modify the file. Even inadvertent addition of an extra line break into the file will invalidate it.
+The license is a plain-text XML file that contains details such as the product name, number of developers it is licensed to, subscription expiry date and so on. The file is digitally signed, so don't modify the file. Even the inadvertent addition of an extra line break into the file will invalidate it.
 
 You need to set a license before utilizing Aspose.ZIP if you want to avoid its evaluation limitations. It is only required to set a license once per application (or process).
 ### **Apply License Using File or Stream Object**
@@ -60,13 +60,13 @@ license.SetLicense(myStream);
 
 
 
-When you call SetLicense method, the license name should be same as that of your license file name. For example, you may change the license file name to "Aspose.ZIP.lic.xml". Then in your code, you should use the modified license name (that is Aspose.ZIP.lic.xml) for the SetLicense method.
+When you call the SetLicense method, the license name should be the same as that of your license file name. For example, you may change the license file name to "Aspose.ZIP.lic.xml". Then in your code, you should use the modified license name (that is Aspose.ZIP.lic.xml) for the SetLicense method.
 ## **Including the License File as an Embedded Resource**
 Another neat way of packaging the license with your application and making sure it will not be lost, is to include it as an embedded resource into one of the assemblies that call the DLL of the component (included in Aspose.ZIP). To include the license file as an embedded resource, perform the following steps:
 
 - In Visual Studio .NET, including the license (.lic) file into the project using the File | Add Existing Item... menu
 - Select the file in the Solution Explorer and set Build Action to Embedded Resource in the Properties window
-- To access the license embedded in the assembly (as an embedded resource), it is not needed to call GetExecutingAssembly and GetManifestResourceStream methods of System.Reflection.Assembly class of Microsoft .NET Framework. All is needed to do, is to just add the license file as an embedded resource to your project and pass the name of the license file into the SetLicense License method. The Licenseclass will automatically find the license file in the embedded resources.
+- To access the license embedded in the assembly (as an embedded resource), it is not needed to call GetExecutingAssembly and GetManifestResourceStream methods of the System.Reflection.Assembly class of Microsoft .NET Framework. All is needed to do, is to just add the license file as an embedded resource to your project and pass the name of the license file into the SetLicense License method. The Licenseclass will automatically find the license file in the embedded resources.
 
 Please review the example given below to understand this method of setting a license (embedded) in your applications.
 

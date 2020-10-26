@@ -13,7 +13,7 @@ NuGet is the easiest way to download and install Aspose APIs for .NET. Open Micr
 You can follow the steps below to reference the Aspose.ZIP API using the package manager console:
 
 1. Open your solution/project in Visual Studio.
-1. Select Tools -> Library Package Manager -> Package Manager Console from the menu to open package manager console.
+1. Select Tools -> Library Package Manager -> Package Manager Console from the menu to open the package manager console.
 
 ![todo:image_alt_text](installation_2.png)
 
@@ -34,7 +34,7 @@ In order to use any component in your application, add a reference to it. The fo
 1. In the Solution Explorer, expand the project node you want to add a reference to.
 1. Right-click the **References** node for the project and select **Add Reference** from the menu.
 1. In the Add Reference dialog box, select the **.NET** tab (it's usually selected by default).
-1. If you have used MSI installer to install Aspose.ZIP, you will see Aspose.ZIP in the top pane. Select it and then click the **Select** button.
+1. If you have used the MSI installer to install Aspose.ZIP, you will see Aspose.ZIP in the top pane. Select it and then click the **Select** button.
 1. If you have downloaded and unpacked the DLL only, click the **Browse** button and locate the Aspose.ZIP.dll file. 
    You have referenced Aspose.ZIP and it should appear in the **SelectedComponents** pane of the dialog box.
 1. Click **OK**. 

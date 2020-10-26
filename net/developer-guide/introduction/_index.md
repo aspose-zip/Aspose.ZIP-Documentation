@@ -26,7 +26,7 @@ Archives can be created with additional settings specifying custom Compression t
 
 {{< /highlight >}}
 #### **Saving Archives**
-Archives can be saved to file system on the disc as well as to streams.
+Archives can be saved to the file system on the disc as well as to streams.
 
 {{< highlight java >}}
 
@@ -56,7 +56,7 @@ Archive archive = new Archive("myarchive.zip");
 
 {{< /highlight >}}
 #### **Extracting Encrypted Archives**
-Password protected archives can be extracted by specifying the ArchiveLoadOptions
+Password-protected archives can be extracted by specifying the ArchiveLoadOptions
 
 {{< highlight java >}}
 
@@ -84,8 +84,6 @@ CreateEntry(string name, Stream source, ArchiveEntrySettings newEntriesSettings,
 {{< /highlight >}}
 ## **Modifying ZIP File**
 In order to edit the zip file on the fly without extracting it on the disk, it can easily be done using extracting inner archives into memory and then remove them later. The content of the inner entries can be kept within memory streams so memory consumption may be higher. It is also possible to save the archive to the physical directory path. The following code example demonstrates the functionality.
-
-
 
 {{< gist "aspose-com-gists" "42ee14864d84aeae8619284450c3d628" "Examples-CSharp-CompressingAndDecompressingFiles-ModifyingZipFile-ModifyingZipFile.cs" >}}
 

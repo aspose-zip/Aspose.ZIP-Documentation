@@ -5,7 +5,7 @@ weight: 20
 url: /net/compressing-and-decompressing-files/
 ---
 
-Aspose.ZIP API lets you compress and decompress files without worrying about the underlying file structure. This article shows working with single as well as multiple files compression.
+Aspose.ZIP API lets you compress and decompress files without worrying about the underlying file structure. This article shows working with single as well as multiple file compression.
 ## **Compressing Files**
 ### **Compressing Single File**
 {{< gist "aspose-com-gists" "42ee14864d84aeae8619284450c3d628" "Examples-CSharp-CompressingAndDecompressingFiles-CompressSingleFile-CompressSingleFile.cs" >}}
@@ -20,7 +20,7 @@ Aspose.ZIP API lets you compress and decompress files without worrying about the
 
 
 ### **LZMA Compression within ZIP Archive**
-The **Lempel–Ziv–Markov chain algorithm** (**LZMA**) is an algorithm used to perform lossless data compression. LZMA uses a dictionary compression algorithm, the compressed stream is a stream of bits. LZMA compression within ZIP archive allows ZIP container to contain LZMA compressed entries. The following code example shows the implementation of LZMA compression using Aspose.ZIP API.
+The **Lempel–Ziv–Markov chain algorithm** (**LZMA**) is an algorithm used to perform lossless data compression. LZMA uses a dictionary compression algorithm, the compressed stream is a stream of bits. LZMA compression within the ZIP archive allows ZIP containers to contain LZMA compressed entries. The following code example shows the implementation of LZMA compression using Aspose.ZIP API.
 
 {{< gist "aspose-com-gists" "42ee14864d84aeae8619284450c3d628" "Examples-CSharp-CompressingAndDecompressingFiles-CompressionSettings-UsingLZMACompressionSettings.cs" >}}
 

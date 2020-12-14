@@ -1,8 +1,6 @@
 ---
 title: Aspose.ZIP for .NET 20.8 Release Notes
 type: docs
-aliases: 
- - https://docs.aspose.com/display/zipnet/Aspose.ZIP+for+.NET+20.8+Release+Notes
 weight: 9
 url: /net/aspose-zip-for-net-20-8-release-notes/
 ---

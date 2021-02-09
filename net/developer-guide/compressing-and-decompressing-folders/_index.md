@@ -1,5 +1,5 @@
 ---
-title: Compressing and Decompressing Folders
+title: ZIP/UnZIP Folders
 type: docs
 weight: 30
 url: /net/compressing-and-decompressing-folders/

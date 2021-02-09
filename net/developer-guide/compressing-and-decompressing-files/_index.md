@@ -1,5 +1,5 @@
 ---
-title: Compressing and Decompressing Files
+title: ZIP/UnZIP Files
 type: docs
 weight: 20
 url: /net/compressing-and-decompressing-files/

@@ -15,7 +15,8 @@ Aspose.ZIP provides you with the capability to password protect the ZIP archives
 
 {{% /alert %}} 
 **Product Description**
-Aspose.ZIP for .NET is implemented using Managed C# and can be used with any .NET language like C#, VB.NET, J# and so on. It can be integrated with any kind of application, from ASP.NET web applications to Windows applications.It also provides fully featured demos written in both C# so that developers can get up and running quickly. Aspose.ZIP can be used to perform a variety of tasks in applications. For example:
+<br/>
+Aspose.ZIP for .NET is implemented using Managed C# and can be used with any .NET language: C#, VB.NET, F#. It can be integrated with any kind of application, from ASP.NET web applications to forms applications within any OS: Windows/Linux/MacOS.It also provides fully featured demos written in both C# so that developers can get up and running quickly. Using parallel compression of zip archive with several entries can gain up to 5x speed increase. Aspose.ZIP can be used to perform a variety of tasks in applications. For example:
 
 - Compress files and folders to standard ZIP and 7z format
 - Decompress files and folders
@@ -26,5 +27,5 @@ Aspose.ZIP for .NET is implemented using Managed C# and can be used with any .NE
 - Apply a different protection scheme to each file in an archive
 - Append files to a zipped archive
 - Use parallelism to achieve efficient compression
-- LZMA and BZip2 compression within a ZIP archive
-- 7z archive composition with LZMA compression
+- LZMA, PPMd and BZip2 compression within a ZIP archive
+- 7z archive composition with LZMA, LZMA2 or Bzip2 compression

@@ -20,4 +20,4 @@ Make sure you have enough virtual memory to keep content of all entries.
 The following code example demonstrates how to extract entries from RAR archive and immediately put it to ZIP archive.
 Entries that are directories added with appended slash to specify their kind.
 
-{{{< gist "aspose-zip-gists" "d69b478235af94b9860be5443f24d031" "ConvertRarToZip.cs" >}}
+{{< gist "aspose-zip-gists" "d69b478235af94b9860be5443f24d031" "ConvertRarToZip.cs" >}}

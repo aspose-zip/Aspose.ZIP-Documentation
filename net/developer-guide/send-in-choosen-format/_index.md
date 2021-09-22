@@ -1,5 +1,5 @@
 ---
-title: Downloading archive in choosen format
+title: Download archive from ASP.NET web application
 type: docs
 weight: 43
 url: /net/send-in-choosen-format/
@@ -9,7 +9,7 @@ url: /net/send-in-choosen-format/
 It is common feature for web applications to download a file from your web server. To reduce data size transferred over wire you may want to compress the file. It is convinient for user to choose format of the archive to download.
 This sample give you some insights how to manage it.
 
-### **Prepare Web Application**
+### **Prepare ASP.NET Web Application**
 Using Visual Studio compose ASP.NET Core Web Application. Let it be simple Web Application with Razor Pages. 
 Using NuGet Package Managet include two packages for your project: [Aspose.Zip](https://www.nuget.org/packages/Aspose.Zip/) for compression and [Aspose.BarCode](https://www.nuget.org/packages/Aspose.BarCode/) for generation sample data.
 <br/>
@@ -53,7 +53,7 @@ Run the application and look to the index page. You'll see something like that:
 <input type="button" value="Download">
 
 ### **Handling user request** 
-So, user specify desired archive format and hits "Download". How to handle his request on the server side? We need to compose appropriate `OnPost` method to `Index.cshtml.cs` source. Here is the draft of the method:
+So, user specify desired archive format and hits "Download". How to handle his request on the server side? Using ASP.NET approach we need to compose appropriate `OnPost` method to `Index.cshtml.cs` source. Here is the draft of the method:
 ```c#
 public FileStreamResult OnPost([FromForm] ArchiveFormat archiveFormat)
 {
@@ -71,7 +71,7 @@ public FileStreamResult OnPost([FromForm] ArchiveFormat archiveFormat)
   }
 }
 ```
-So for requested archive type we must prepare corresponding archive from sample data (`result` variable) and respond with proper MIME type.
+So for requested archive type we must prepare corresponding archive from sample data (`result` variable) and respond with `Microsoft.AspNetCore.Mvc.FileStreamResult` having proper MIME type.
 
 ### **Generating sample data**
 

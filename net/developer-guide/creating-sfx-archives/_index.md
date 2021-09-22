@@ -1,5 +1,5 @@
 ---
-title: Creating self-extracting archive
+title: Create self-extracting (SFX) archive
 type: docs
 weight: 67
 url: /net/creating-sfx-archive/

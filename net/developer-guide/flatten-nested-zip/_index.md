@@ -1,5 +1,5 @@
 ---
-title: Flatten nested zip archives
+title: Make a ZIP archive flat
 type: docs
 weight: 42
 url: /net/flatten-nested-zip/

@@ -1,5 +1,5 @@
 ---
-title: Guessing password of an archive
+title: Unlock ZIP password
 type: docs
 weight: 41
 url: /net/trying-forgotten-password/

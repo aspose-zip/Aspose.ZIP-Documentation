@@ -82,8 +82,3 @@ CreateEntry(string name, FileInfo fileInfo, ArchiveEntrySettings newEntriesSetti
 CreateEntry(string name, Stream source, ArchiveEntrySettings newEntriesSettings, FileSystemInfo fileInfo) - Creates single entry with given name, data source, compression and encryption settings for the entry. Keeps attributes of NTFS file and respects optional parameters.
 
 {{< /highlight >}}
-## **Modifying ZIP File**
-In order to edit the zip file on the fly without extracting it on the disk, it can easily be done using extracting inner archives into memory and then remove them later. The content of the inner entries can be kept within memory streams so memory consumption may be higher. It is also possible to save the archive to the physical directory path. The following code example demonstrates the functionality.
-
-{{< gist "aspose-com-gists" "42ee14864d84aeae8619284450c3d628" "Examples-CSharp-CompressingAndDecompressingFiles-ModifyingZipFile-ModifyingZipFile.cs" >}}
-

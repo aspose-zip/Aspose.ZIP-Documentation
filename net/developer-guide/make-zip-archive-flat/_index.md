@@ -2,7 +2,7 @@
 title: Make a ZIP archive flat
 type: docs
 weight: 42
-url: /net/flatten-nested-zip/
+url: /net/make-zip-archive-flat/
 ---
 
 It may happen that your zip archive has other zip archives inside it. One may want to extract the nested zip archive’s contents into the parent archive to get flat structure.

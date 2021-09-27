@@ -2,7 +2,7 @@
 title: Download archive from ASP.NET web application
 type: docs
 weight: 43
-url: /net/send-in-choosen-format/
+url: /net/download-archive-from-asp.net-web-app/
 ---
 
 ### **Download archive from server**

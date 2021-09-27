@@ -2,7 +2,7 @@
 title: Unlock ZIP password
 type: docs
 weight: 41
-url: /net/trying-forgotten-password/
+url: /net/unlock-zip-password/
 ---
 
 ### **Forgotten password**

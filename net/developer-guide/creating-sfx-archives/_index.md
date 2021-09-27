@@ -2,7 +2,7 @@
 title: Create self-extracting (SFX) archive
 type: docs
 weight: 67
-url: /net/creating-sfx-archive/
+url: /net/create-self-extracting-sfx-archive/
 ---
 
 Aspose.ZIP allows creating self-extracting (SFX) archive.  This is a special kind of zipped file, which has a filename extension of.exe. You can unzip a self-extracting file by double-clicking it.

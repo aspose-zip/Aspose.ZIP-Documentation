@@ -41,7 +41,7 @@ The following code example demonstrates how to create an archive with entries en
 
 ### **Extraction of 7z archives**
 {{% alert color="primary" %}} 
-Now Aspose.ZIP can only exrtact LZMA-compressed archives.
+Now Aspose.ZIP can extract LZMA, LZMA2, BZip2 compressed archives.
 {{% /alert %}} 
 The following code example demonstrates how to extract 7z archive to directory.
 {{< gist "aspose-com-gists" "42ee14864d84aeae8619284450c3d628" "Examples-CSharp-WorkingWithSevenZip-ExtractArchviveByPath.cs" >}}

@@ -11,7 +11,7 @@ Rotated images will be displayed on the same web page in response.
 
 ### **Prepare ASP.NET Web Application**
 Using Visual Studio compose simpe ASP.NET Core Web Application with Razor Pages. 
-Using NuGet Package Managet refer two packages for your project: [Aspose.Zip](https://www.nuget.org/packages/Aspose.Zip/) for decompression and [Aspose.Imaging](https://www.nuget.org/packages/Aspose.Imaging/) image processing.
+Using NuGet Package Managet refer two packages for your project: [Aspose.Zip](https://www.nuget.org/packages/Aspose.Zip/) for decompression and [Aspose.Imaging](https://www.nuget.org/packages/Aspose.Imaging/) for image processing.
 <br/>
 Find page `Index.cshtml` within your Solution Explorer. Now, add a form to that page with `enctype="multipart/form-data"` attribute within `<form>` tag. It needed to transfer file to web server. Then, add two input fields - one of type `file` for uploaded archive, another of type `number` to specify rotation angle.
 Here is full HTML markup for the form:
@@ -39,7 +39,7 @@ public void OnPost(IFormFile uploadedFile, int rotateDegree) {
 ```
 
 ### **Rotate images**
-We use Aspose.Imaging library to rotate an image by particular on the fly angle following [this instruction](https://docs.aspose.com/imaging/net/crop-rotate-and-resize-images/#rotating-an-image-on-a-specific-angle).
+We use Aspose.Imaging library to rotate an image by particular angle on the fly angle following [this instruction](https://docs.aspose.com/imaging/net/crop-rotate-and-resize-images/#rotating-an-image-on-a-specific-angle).
 The snippet of rotation code:
 {{< gist "aspose-zip-gists" "d69b478235af94b9860be5443f24d031" "RotateImageSnippet.cs" >}}
 

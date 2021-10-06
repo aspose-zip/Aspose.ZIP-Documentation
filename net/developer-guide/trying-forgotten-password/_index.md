@@ -7,12 +7,12 @@ url: /net/unlock-zip-password/
 
 ### **Forgotten password**
 
-It is common to forget password "partly", i. e. remember some characters of it while forget others.
-Aspose.ZIP API lets you play with such half-forgotten passwords to unlock the archive. This article shows guessing the decryption password of AES-encrypted zip archive.
+It is common to forget password "partly", i. e. remember some characters of it while forgetting others.
+Aspose.ZIP API lets you play with such half-forgotten passwords to unlock the archive. This article shows guessing the decryption password of the AES-encrypted zip archive.
 
 ### **Identifying password template**
 
-Lets say your password starts with "T0p$ecret" symbols followed by capital english letter and two digits. So, we can describe template like this: 
+Let's say your password starts with "T0p$ecret" symbols followed by capital English letter and two digits. So, we can describe a template like this: 
 ```c#
 string template = "T0p$ecret{0}{1}";
 ```
@@ -28,6 +28,6 @@ raises an [InvalidDataException](https://docs.microsoft.com/en-us/dotnet/api/sys
 
 ### **Brute force attack on the archive**
 
-So compose and test passwords one by one. If there will be success program prints proper password to console.
+So compose and test passwords one by one. If there will be success program prints the proper password to the console.
 
 {{< gist "aspose-zip-gists" "d69b478235af94b9860be5443f24d031" "GuessPassword.cs" >}}

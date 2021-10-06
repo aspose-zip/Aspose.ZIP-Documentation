@@ -6,12 +6,12 @@ url: /net/upload-archive-asp-net/
 ---
 
 ### **Scenario**
-This article provides you with example how use Aspose libraries for archive decompression and image processing for ASP.NET web application. The user case: site visitor uploads zip archive with images to web application to rotate them all by a specific angle.
+This article provides you with an example of how to use Aspose libraries for archive decompression and image processing for ASP.NET web application. The user case: site visitor uploads zip archive with images to web application to rotating them all by a specific angle.
 Rotated images will be displayed on the same web page in response.
 
 ### **Prepare ASP.NET Web Application**
-Using Visual Studio compose simpe ASP.NET Core Web Application with Razor Pages. 
-Using NuGet Package Managet refer two packages for your project: [Aspose.Zip](https://www.nuget.org/packages/Aspose.Zip/) for decompression and [Aspose.Imaging](https://www.nuget.org/packages/Aspose.Imaging/) for image processing.
+Using Visual Studio compose simple ASP.NET Core Web Application with Razor Pages. 
+Using NuGet Package Manager refer two packages for your project: [Aspose.Zip](https://www.nuget.org/packages/Aspose.Zip/) for decompression and [Aspose.Imaging](https://www.nuget.org/packages/Aspose.Imaging/) for image processing.
 <br/>
 Find page `Index.cshtml` within your Solution Explorer. Now, add a form to that page with `enctype="multipart/form-data"` attribute within `<form>` tag. It needed to transfer file to web server. Then, add two input fields - one of type `file` for uploaded archive, another of type `number` to specify rotation angle.
 Here is full HTML markup for the form:
@@ -24,10 +24,10 @@ Here is full HTML markup for the form:
     <input type="submit" value="Upload" />
 </form>
 ```
-Some validation attributes has been added as well. 
+Some validation attributes have been added as well. 
 
 ### **Handling user request** 
-So, user provide zip archive with images and submits the form. How to handle his request on the server side? Using ASP.NET approach we need to compose appropriate `OnPost` method to `Index.cshtml.cs` source. Within this method we extract [zip archive](https://apireference.aspose.com/zip/net/aspose.zip/archive) using [appropriate constructor](https://apireference.aspose.com/zip/net/aspose.zip/archive/constructors/1), then rotate each image. Here is the draft of the method:
+So, the user provides the zip archive with images and submits the form. How to handle his request on the server-side? Using ASP.NET approach we need to compose an appropriate `OnPost` method to `Index.cshtml.cs` source. Within this method we extract [zip archive](https://apireference.aspose.com/zip/net/aspose.zip/archive) using [the appropriate constructor](https://apireference.aspose.com/zip/net/aspose.zip/archive/constructors/1), then rotate each image. Here is the draft of the method:
 ```c#
 public void OnPost(IFormFile uploadedFile, int rotateDegree) {
     using (Archive archive = new Archive(uploadedFile.OpenReadStream())) {
@@ -44,9 +44,9 @@ The snippet of rotation code:
 {{< gist "aspose-zip-gists" "d69b478235af94b9860be5443f24d031" "RotateImageSnippet.cs" >}}
 
 ### **Page Model and Image Rendering**
-We need to store bytes of proceeded pictures within page model to render those pictures. Add property `public List<byte[]> ImageBytes { get; private set; }` to `IndexModel`. 
-We fill this list with proceeded image bytes. To show them on web page we use [data URI](https://en.wikipedia.org/wiki/Data_URI_scheme) We need to convert image bytes to base64 string.
-Here is a redering Razor code at `Index.cshtml`
+We need to store bytes of proceeded pictures within the page model to render those pictures. Add property `public List<byte[]> ImageBytes { get; private set; }` to `IndexModel`. 
+We fill this list with proceeded image bytes. To show them on the web page we use [data URI](https://en.wikipedia.org/wiki/Data_URI_scheme) We need to convert image bytes to base64 string.
+Here is a rendering Razor code at `Index.cshtml`
 ```c#
 @{
 if (Model.ImageBytes != null && Model.ImageBytes.Count > 0) {
@@ -59,5 +59,5 @@ if (Model.ImageBytes != null && Model.ImageBytes.Count > 0) {
 ```
 
 ### **Finishing response**
-So, put it all together. Each entry of archive has been decompressed, then an image composed from these bytes, and finally it rotated. <br /> In this sample we do not validate user file. In real world applications you should verify uploaded archive and its content. <br />Below is the final `OnPost` method.
+So, put it all together. Each entry of the archive has been decompressed, then an image composed from these bytes, and finally rotated. <br />We do not validate user file in this sample. In real-world applications, you should verify an uploaded archive and its content. <br />Below is the final `OnPost` method.
 {{< gist "aspose-zip-gists" "d69b478235af94b9860be5443f24d031" "ExtractAndRotateImages.cs" >}}

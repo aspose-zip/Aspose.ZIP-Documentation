@@ -5,7 +5,7 @@ weight: 42
 url: /net/make-zip-archive-flat/
 ---
 
-It may happen that your zip archive has other zip archives inside it. One may want to extract the nested zip archive’s contents into the parent archive to get flat structure.
+Your zip archive may have other zip archives inside it. One may want to extract the nested zip archive’s contents into the parent archive to get a flat structure.
 
 <h5> Current archive structure </h5>
 <pre>
@@ -30,7 +30,7 @@ If you are not familiar with Aspose.Zip read how to [extract zip archive](https:
 
 ### **Overal explanation**
 
-First, we need to list all the entries of the archive. Regular entries should be kept as they are, we should not even decompress them. Entries that are archives themselves need to be extracted to memory and removed from outer archive. Their content need to included to the main archive. 
+First, we need to list all the entries of the archive. Regular entries should be kept as they are, we should not even decompress them. Entries that are archives themselves need to be extracted to memory and removed from the outer archive. Their content needs to be included in the main archive. 
 
 ### **Detecting entries that are archives**
 Lets decide which entries are archives itself. We can figure this out by extension of entry name.
@@ -44,7 +44,7 @@ if (entry.Name.EndsWith(".zip", StringComparison.InvariantCultureIgnoreCase)) {
 
 ### **Extracting entry's content to memory**
 
-Aspose.Zip allows to extract the content of zip entry into any writable stream, not only to a file. So, we can extract a nested archive to a memory stream.
+Aspose.Zip allows extracting the content of zip entry into any writable stream, not only to a file. So, we can extract a nested archive to a memory stream.
 
 {{% alert color="primary" %}} 
 
@@ -57,7 +57,7 @@ MemoryStream innerCompressed = new MemoryStream();
 entry.Open().CopyTo(innerCompressed); 
 ```
 
-After that innerCompressed stream contains inner archive itself. The [Archive constructor](https://apireference.aspose.com/zip/net/aspose.zip/archive/constructors/1) allows to decompress the stream provided.
+After that innerCompressed stream contains the inner archive itself. The [Archive constructor](https://apireference.aspose.com/zip/net/aspose.zip/archive/constructors/1) allows decompressing the stream provided.
 So, we can extract it as well:
 ```c#
 Archive inner = new Archive(innerCompressed);

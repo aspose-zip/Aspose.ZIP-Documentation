@@ -5,13 +5,13 @@ weight: 43
 url: /net/download-archive-from-asp.net-web-app/
 ---
 
-### **Download archive from server**
-It is common feature for web applications to download a file from your web server. To reduce data size transferred over wire you may want to compress the file. It is convinient for user to choose format of the archive to download.
-This sample give you some insights how to manage it.
+### **Download archive from the server**
+It is a common feature for web applications to download a file from your web server. To reduce data size transferred over wire you may want to compress the file. It is convenient for a user to choose the format of the archive to download.
+This sample gives you some insights on how to manage it.
 
 ### **Prepare ASP.NET Web Application**
-Using Visual Studio compose ASP.NET Core Web Application. Let it be simple Web Application with Razor Pages. 
-Using NuGet Package Managet include two packages for your project: [Aspose.Zip](https://www.nuget.org/packages/Aspose.Zip/) for compression and [Aspose.BarCode](https://www.nuget.org/packages/Aspose.BarCode/) for generation sample data.
+Using Visual Studio compose ASP.NET Core Web Application. Let it be a simple Web Application with Razor Pages. 
+Using NuGet Package Manager you include two packages for your project: [Aspose.Zip](https://www.nuget.org/packages/Aspose.Zip/) for compression and [Aspose.BarCode](https://www.nuget.org/packages/Aspose.BarCode/) for generation sample data.
 <br/>
 Find page `Index.cshtml` within your Solution Explorer. Now, add a form to that page with a submit button within it. It needed to initiate download request by user.
 Add to that page following HTML markup:
@@ -22,7 +22,7 @@ Add to that page following HTML markup:
 ```
 
 ### **List archive formats**
-For this sample we choosen three of [archive formats](https://docs.aspose.com/zip/net/supported-file-formats/) Aspose.ZIP supports: ZIP, Bzip2, 7z.
+For this sample, we chosen three of [archive formats](https://docs.aspose.com/zip/net/supported-file-formats/) Aspose.ZIP supports: ZIP, Bzip2, 7z.
 Compose enumeration for those formats marking its members with [DisplayAttribute](https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations.displayattribute)
 <br/>The enumeration code will be:
 ```c#
@@ -38,7 +38,7 @@ public enum ArchiveFormat
     SevenZip
 }
 ```
-Next, you need to create a dropdown list within web form. It is pretty simple with [GetEnumSelectList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.mvc.viewfeatures.htmlhelper.getenumselectlist) html helper - no need to generate items with a loop. 
+Next, you need to create a dropdown list within the web form. It is pretty simple with [GetEnumSelectList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.mvc.viewfeatures.htmlhelper.getenumselectlist) Html helper - no need to generate items with a loop. 
 Just put inside your form on `Index.cshtml` following snippet:
 ```html
 <select name="archiveFormat" asp-items="Html.GetEnumSelectList<ArchiveFormat>()"></select>
@@ -53,7 +53,7 @@ Run the application and look to the index page. You'll see something like that:
 <input type="button" value="Download">
 
 ### **Handling user request** 
-So, user specify desired archive format and hits "Download". How to handle his request on the server side? Using ASP.NET approach we need to compose appropriate `OnPost` method to `Index.cshtml.cs` source. Here is the draft of the method:
+So,the user specify desired archive format and hits "Download". How to handle his request on the server-side? Using ASP.NET approach we need to compose an appropriate `OnPost` method to `Index.cshtml.cs` source. Here is the draft of the method:
 ```c#
 public FileStreamResult OnPost([FromForm] ArchiveFormat archiveFormat)
 {
@@ -71,7 +71,7 @@ public FileStreamResult OnPost([FromForm] ArchiveFormat archiveFormat)
   }
 }
 ```
-So for requested archive type we must prepare corresponding archive from sample data (`result` variable) and respond with `Microsoft.AspNetCore.Mvc.FileStreamResult` having proper MIME type.
+So for the requested archive type we must prepare the corresponding archive from sample data (`result` variable) and respond with `Microsoft.AspNetCore.Mvc.FileStreamResult` having the proper MIME type.
 
 ### **Generating sample data**
 
@@ -81,5 +81,5 @@ The snippet of data stream generation:
 
 ### **Finishing response**
 
-Now we have a raw data stream from `GenerateBarcode` method. Compress it appropriately in every case. Below is the final `OnPost` method.
+Now we have a raw data stream from the `GenerateBarcode` method. Compress it appropriately in every case. Below is the final `OnPost` method.
 {{< gist "aspose-zip-gists" "d69b478235af94b9860be5443f24d031" "HttpResponseWithChoosenArchiveKind.cs" >}}

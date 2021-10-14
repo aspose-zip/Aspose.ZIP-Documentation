@@ -28,11 +28,10 @@ This page contains release notes information for [Aspose.ZIP for .NET 21.10](htt
 |Aspose.Zip.Cpio.CpioArchive|This class represents Cpio archive file.|
 |Aspose.Zip.Cpio.CpioEntry|Represents single file within cpio archive.|
 |Aspose.Zip.Cpio.CpioFormat|Enumeration with supported formats of cpio.|
-
 |**The following public methods and properties were added:**|**Description**|
 |Aspose.Zip.Lzip.LzipArchive.#ctor(Stream sourceStream)|Initializes a new instance of the LzipArchive class prepared for decompressing.|
 |Aspose.Zip.Lzip.LzipArchive.#ctor(string path)|Initializes a new instance of the LzipArchive class prepared for decompressing.|
-|Aspose.Zip.Lzip.LzipArchive.#ctor(LzipArchiveSettings settings = null)|	Initializes a new instance of the LzipArchive class.|
+|Aspose.Zip.Lzip.LzipArchive.#ctor(LzipArchiveSettings settings = null)|Initializes a new instance of the LzipArchive class.|
 |Aspose.Zip.Lzip.LzipArchive.Settings	Setting of particular lzip archive.|
 |Aspose.Zip.Lzip.LzipArchive.Extract(Stream destination)|Extracts lzip archive to a stream.|
 |Aspose.Zip.Lzip.LzipArchive.Extract(FileInfo fileInfo)|Extracts lzip archive to a file.|

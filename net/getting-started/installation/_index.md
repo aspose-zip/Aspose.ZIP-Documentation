@@ -21,7 +21,7 @@ Type the command “**Install-Package Aspose.ZIP-Version x.x.0**” and press en
 
 ![todo:image_alt_text](installation_3.png)
 
-If you are not familiar with the [Aspose EULA](http://www.aspose.com/corporate/purchase/end-user-license-agreement.aspx) then it is a good idea to read the license referenced in the URL. 
+If you are not familiar with the [Aspose EULA](https://about.aspose.com/legal/eula) then it is a good idea to read the license referenced in the URL. 
 
 You should now find that Aspose.ZIP has successfully been added and referenced in your application for you.
 

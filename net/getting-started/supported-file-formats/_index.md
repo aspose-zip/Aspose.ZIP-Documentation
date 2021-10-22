@@ -10,7 +10,7 @@ The following table indicates the input and output file formats supported by As
 
 |**Format**|**Description**|**Load**|**Save**|**Remarks**|
 | :- | :- | :- | :- | :- |
-|[ZIP](https://docs.fileformat.com/Compression/ZIP/)|ZIP File Format|{{< emoticons/tick >}}|{{< emoticons/tick >}}|Deflate, Bzip2, LZMA or PPMd compression algorithms.|
+|[ZIP](https://docs.fileformat.com/compression/zip/)|ZIP File Format|{{< emoticons/tick >}}|{{< emoticons/tick >}}|Deflate, Bzip2, LZMA or PPMd compression algorithms.|
 |[TAR](https://docs.fileformat.com/compression/tar/)|Unix File Archive|{{< emoticons/tick >}}|{{< emoticons/tick >}}|Unix Standard, GNU, POSIX.1-2001 TAR|
 |[GZIP](https://docs.fileformat.com/compression/gz/)|GNU ZIP|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[LZ](https://docs.fileformat.com/compression/lz/)|Lzip|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |

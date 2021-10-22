@@ -22,10 +22,10 @@ Aspose.ZIP provides you the capability to password protect the ZIP archives with
 The following are the links to some useful resources you may need to accomplish your tasks.
 
 - [Aspose.ZIP for .NET Online Documentation](/zip/net/)
-- [Aspose.ZIP for .NET Features](/zip/net/features)
-- [Aspose.ZIP for .NET Release Notes](/zip/net/release-notes)
-- [Aspose.ZIP for .NET Product Page](https://products.aspose.com/zip/net)
+- [Aspose.ZIP for .NET Features](/zip/net/features/)
+- [Aspose.ZIP for .NET Release Notes](/zip/net/release-notes/)
+- [Aspose.ZIP for .NET Product Page](https://products.aspose.com/zip/net/)
 - [Install Aspose.ZIP for .NET NuGet Package](https://www.nuget.org/packages/Aspose.ZIP/)
-- [Aspose.ZIP for .NET API Reference Guide](https://apireference.aspose.com/net/zip)
-- [Aspose.ZIP for .NET Free Support Forum](https://forum.aspose.com/c/zip)
+- [Aspose.ZIP for .NET API Reference Guide](https://apireference.aspose.com/zip/net)
+- [Aspose.ZIP for .NET Free Support Forum](https://forum.aspose.com/c/zip/37)
 - [Aspose.ZIP for .NET Paid Support Helpdesk](https://helpdesk.aspose.com/)

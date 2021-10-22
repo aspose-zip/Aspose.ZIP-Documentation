@@ -24,7 +24,7 @@ Add to that page following HTML markup:
 
 ### **List archive formats**
 For this sample, we chosen three of [archive formats](https://docs.aspose.com/zip/net/supported-file-formats/) Aspose.ZIP supports: ZIP, Bzip2, 7z.
-Compose enumeration for those formats marking its members with [DisplayAttribute](https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations.displayattribute)
+Compose enumeration for those formats marking its members with [DisplayAttribute](https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations.displayattribute?view=net-5.0)
 <br/>The enumeration code will be:
 ```c#
 public enum ArchiveFormat
@@ -39,7 +39,7 @@ public enum ArchiveFormat
     SevenZip
 }
 ```
-Next, you need to create a dropdown list within the web form. It is pretty simple with [GetEnumSelectList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.mvc.viewfeatures.htmlhelper.getenumselectlist) Html helper - no need to generate items with a loop. 
+Next, you need to create a dropdown list within the web form. It is pretty simple with [GetEnumSelectList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.mvc.viewfeatures.htmlhelper.getenumselectlist?view=aspnetcore-5.0) Html helper - no need to generate items with a loop. 
 Just put inside your form on `Index.cshtml` following snippet:
 ```html
 <select name="archiveFormat" asp-items="Html.GetEnumSelectList<ArchiveFormat>()"></select>

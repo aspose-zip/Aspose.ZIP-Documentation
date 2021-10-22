@@ -11,7 +11,7 @@ Aspose.ZIP package can be added to you .NET project using the following NuGet co
 PM> Install-Package Aspose.Zip
 ```
 
-It can also be added directly to .NET project as a assembly reference. Aspose.ZIP library can be downloaded from our home page: https://products.aspose.com/zip/net.
+It can also be added directly to .NET project as a assembly reference. Aspose.ZIP library can be downloaded from our home page: https://products.aspose.com/zip/net/.
 Aspose.ZIP .NET library can be used on any OS that supports .NET Core (e.g. Windows, Linux or macOS).
 ### **How to ZIP files in C#**
 ```csharp

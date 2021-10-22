@@ -7,7 +7,7 @@ url: /net/working-with-gzip-archives/
 
 
 ## **Overview**
-Aspose.ZIP for .NET API lets work with creating and managing GZip archives in your applications without the need of any other 3rd party applications. Aspose.ZIP API provides [GZipArchive](https://apireference.aspose.com/net/zip/aspose.zip.gzip/gziparchive) class to work with GZip archives. This class provides various methods to perform operations on archives.
+Aspose.ZIP for .NET API lets work with creating and managing GZip archives in your applications without the need of any other 3rd party applications. Aspose.ZIP API provides [GZipArchive](https://apireference.aspose.com/zip/net/aspose.zip.gzip/gziparchive) class to work with GZip archives. This class provides various methods to perform operations on archives.
 
 {{% alert color="primary" %}} 
 

@@ -7,7 +7,7 @@ url: /net/working-with-7z-archives/
 
 
 ## **Overview**
-7-Zip is a file archiver with a high compression ratio. Aspose.ZIP API lets work with creating and managing 7-Zip archives in your applications without the need of any other 3rd party applications. Aspose.ZIP API provides [SevenZipArchive](https://apireference.aspose.com/net/zip/aspose.zip.sevenzip/sevenziparchive) class to work with 7-Zip archives. This class provides various methods to perform operations on archives. API provides the [SevenZipArchiveEntry ](https://apireference.aspose.com/net/zip/aspose.zip.sevenzip/sevenziparchiveentry)class to represents a single file within the 7z archive.
+7-Zip is a file archiver with a high compression ratio. Aspose.ZIP API lets work with creating and managing 7-Zip archives in your applications without the need of any other 3rd party applications. Aspose.ZIP API provides [SevenZipArchive](https://apireference.aspose.com/zip/net/aspose.zip.sevenzip/sevenziparchive) class to work with 7-Zip archives. This class provides various methods to perform operations on archives. API provides the [SevenZipArchiveEntry ](https://apireference.aspose.com/zip/net/aspose.zip.sevenzip/sevenziparchiveentry)class to represents a single file within the 7z archive.
 ### **Create a 7-Zip Single Entry**
 The following code example demonstrates how to create a 7-Zip entry using SevenZipArchive instance.
 
@@ -17,7 +17,7 @@ The SevenZipArchive class provides CreateEntries methods to add files and direct
 
 {{< gist "aspose-com-gists" "42ee14864d84aeae8619284450c3d628" "Examples-CSharp-WorkingWithSevenZip-CreateSevenZipEntries-CreateSevenZipEntries.cs" >}}
 ### **7-Zip Encryption Settings**
-Aspose.ZIP API provides [SevenZipAESEncryptionSettings](https://apireference.aspose.com/net/zip/aspose.zip.saving/sevenzipaesencryptionsettings) class which provides Settings for AES encryption or decryption for 7z archives. The following code example demonstrates how to provide AES Encryption Settings.
+Aspose.ZIP API provides [SevenZipAESEncryptionSettings](https://apireference.aspose.com/zip/net/aspose.zip.saving/sevenzipaesencryptionsettings) class which provides Settings for AES encryption or decryption for 7z archives. The following code example demonstrates how to provide AES Encryption Settings.
 
 {{< gist "aspose-com-gists" "42ee14864d84aeae8619284450c3d628" "Examples-CSharp-WorkingWithSevenZip-AESEncryptionSettings-AESEncryptionSettings.cs" >}}
 

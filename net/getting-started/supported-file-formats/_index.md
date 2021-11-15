@@ -14,7 +14,7 @@ The following table indicates the input and output file formats supported by As
 |[TAR](https://docs.fileformat.com/compression/tar/)|Unix File Archive|{{< emoticons/tick >}}|{{< emoticons/tick >}}|Unix Standard, GNU, POSIX.1-2001 TAR|
 |[GZIP](https://docs.fileformat.com/compression/gz/)|GNU ZIP|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[LZ](https://docs.fileformat.com/compression/lz/)|Lzip|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
-|CPIO|Unix File Archive||{{< emoticons/tick >}}| |
+|CPIO|Unix File Archive|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[BZ2](https://docs.fileformat.com/compression/bz2/)|BZIP2|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[RAR](https://docs.fileformat.com/compression/rar/)|RAR|{{< emoticons/tick >}}| | |
 |XZ|XZ|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |

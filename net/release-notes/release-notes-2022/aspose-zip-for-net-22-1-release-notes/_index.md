@@ -22,6 +22,7 @@ This page contains release notes information for [Aspose.ZIP for .NET 22.1](http
 
 ## **Public API and Backwards Incompatible Changes**
 |**The following public methods and properties were added:**|**Description**|
+| :- | :- |
 |Aspose.Zip.Z.ZArchive.Extract(Stream destination)|Extracts Z archive to the stream provided.|
 |Aspose.Zip.Z.ZArchive.Extract(FileInfo fileInfo)|Extracts Z archive to a file.|
 |Aspose.Zip.Z.ZArchive.Extract(string path)|Extracts Z archive to a file by path.|

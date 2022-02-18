@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /net/how-to/
 keywords: "C# Zip File, C# 7zip, C# RAR Library"
-description: "Shows how to perform standard archive operations in C# or .NET e.g. zip file in C#, unzip file in C# etc."
+description: "Shows how to perform standard archive operations with zip, 7z, rar files in C# or .NET e.g. zip file in C#, unzip file in C# etc."
 ---
 
 This page shows how to perform standard archive operations in C# using [Aspose.ZIP for .NET](https://www.nuget.org/packages/Aspose.Zip/).

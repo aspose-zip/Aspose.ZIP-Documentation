@@ -13,7 +13,7 @@ PM> Install-Package Aspose.Zip
 
 It can also be added directly to .NET project as a assembly reference. Aspose.ZIP library can be downloaded from our home page: https://products.aspose.com/zip/net/.
 Aspose.ZIP .NET library can be used on any OS that supports .NET Core (e.g. Windows, Linux or macOS).
-### **How to ZIP files in C#**
+## **How to ZIP files in C#**
 ```csharp
 using (var archive = new Archive())
 {
@@ -23,7 +23,7 @@ using (var archive = new Archive())
 }
 ```
 Archive class constructor creates a regular ZIP archive using [Deflate compression algorithm](https://en.wikipedia.org/wiki/Deflate) and no encryption.
-### **How to UnZIP files in C#**
+## **How to UnZIP files in C#**
 ```csharp
 using (var archive = new Archive("input_archive.zip"))
 {
@@ -31,7 +31,7 @@ using (var archive = new Archive("input_archive.zip"))
 }
 ```
 Archive class constructor can open any ZIP archive. ArchiveLoadOptions should be provided as a second parameter in case the input archive is password-protected (See example below).
-### **How to 7z files in C#**
+## **How to 7z files in C#**
 ```csharp
 using (var archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipLZMACompressionSettings())))
 {
@@ -40,7 +40,7 @@ using (var archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipL
 }
 ```
 SevenZipArchive class constructor should be used to create a new 7z archive. The above sample uses classic LZMA compression, but other compression as well as encryption options are also available.
-### **How to extract 7z files in C#**
+## **How to extract 7z files in C#**
 ```csharp
 using (var archive = new SevenZipArchive("input_archive.7z"))
 {
@@ -48,7 +48,7 @@ using (var archive = new SevenZipArchive("input_archive.7z"))
 }
 ```
 In the above sample SevenZipArchive class constructor opens non-protected 7z archive.
-### **How to extract RAR files in C#**
+## **How to extract RAR files in C#**
 ```csharp
 using (var archive = new RarArchive("input_archive.rar"))
 {
@@ -56,7 +56,7 @@ using (var archive = new RarArchive("input_archive.rar"))
 }
 ```
 In the above sample RarArchive class constructor opens non-protected RAR archive.
-### **How to ZIP files with password in C#**
+## **How to ZIP files with password in C#**
 ```csharp
 using (var archive = new Archive(new ArchiveEntrySettings(encryptionSettings: new TraditionalEncryptionSettings("pass"))))
 {
@@ -66,7 +66,7 @@ using (var archive = new Archive(new ArchiveEntrySettings(encryptionSettings: ne
 }
 ```
 The encryptionSettings parameter is used to create a password-protected ZIP archive.
-### **How to UnZIP files with password in C#**
+## **How to UnZIP files with password in C#**
 ```csharp
 using (var archive = new Archive("input_archive.zip", new ArchiveLoadOptions{DecryptionPassword = "pass"}))
 {

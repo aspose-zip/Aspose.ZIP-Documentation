@@ -1,8 +1,11 @@
 ---
-title: ZIP/UnZIP Files
+title: Zip or UnZip Files in C# - Compressing and Decompressing Archives
+linktitle: ZIP/UnZIP Files
 type: docs
 weight: 20
 url: /net/compressing-and-decompressing-files/
+keywords: zip c# library, c# compress file, c# uncompress zip, unzip c#, c# decompress zip
+description: Zip or UnZip Files in C# and Compress or Decompress Single, Multiple Files and Archives programmatically with API
 ---
 
 Aspose.ZIP API lets you compress and decompress files without worrying about the underlying file structure. This article shows working with single as well as multiple file compression.

@@ -1,11 +1,14 @@
 ---
-title: Password Protecting Archives
+title: Password Protect Zip Files and Archives in C#
+linktitle: Password Protecting Archives
 type: docs
 weight: 40
 url: /net/password-protecting-archives/
+keywords: password protect zip file c#
+description: Compress and decompress files or directory with password protection in C#
 ---
 
-Aspose.ZIP API lets you compress and decompress files without worrying about the underlying file structure. This article shows working with single as well as multiple files compression.
+Aspose.ZIP API lets you compress and decompress files in C# or any .NET langauge without worrying about the underlying file structure. This article shows working with single as well as multiple files compression.
 ## **Password Protection with Traditional Encryption**
 ### **Encrypt Files with Traditional Encryption Scheme**
 {{< gist "aspose-com-gists" "42ee14864d84aeae8619284450c3d628" "Examples-CSharp-WorkingWithPasswordProtectedArchives-PasswordPrtoectArchiveWithTraditionalPassword-PasswordPrtoectArchiveWithTraditionalPassword.cs" >}}

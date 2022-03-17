@@ -3,6 +3,8 @@ title: Upload archive to ASP.NET web application
 type: docs
 weight: 47
 url: /net/upload-archive-asp-net/
+keywords: c# zip library, archive decompression
+description: Provides example of how to use c# zip library for archive decompression and image processing for ASP.NET web application.
 ---
 
 ## **Scenario**

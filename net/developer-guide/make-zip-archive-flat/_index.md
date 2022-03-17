@@ -4,6 +4,8 @@ type: docs
 weight: 42
 url: /net/flatten-nested-zip/
 aliases: [/net/make-zip-archive-flat/]
+keywords: flat zip c#, zip c# library
+description: C# zip library enables you to extract the nested zip archive contents into the parent archive to get a flat structure.
 ---
 
 Your zip archive may have other zip archives inside it. One may want to extract the nested zip archive’s contents into the parent archive to get a flat structure.

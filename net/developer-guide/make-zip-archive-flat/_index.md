@@ -4,6 +4,8 @@ type: docs
 weight: 42
 url: /net/flatten-nested-zip/
 aliases: [/net/make-zip-archive-flat/]
+keywords: flat zip c#, zip c# library
+description: C# zip library enables you to extract the nested zip archive contents into the parent archive to get a flat structure.
 ---
 
 Your zip archive may have other zip archives inside it. One may want to extract the nested zip archive’s contents into the parent archive to get a flat structure.
@@ -29,11 +31,11 @@ Your zip archive may have other zip archives inside it. One may want to extract 
 
 If you are not familiar with Aspose.Zip read how to [extract zip archive](https://docs.aspose.com/zip/net/compressing-and-decompressing-files/#decompressing-archives) first.
 
-### **Overal explanation**
+## **Overal explanation**
 
 First, we need to list all the entries of the archive. Regular entries should be kept as they are, we should not even decompress them. Entries that are archives themselves need to be extracted to memory and removed from the outer archive. Their content needs to be included in the main archive. 
 
-### **Detecting entries that are archives**
+## **Detecting entries that are archives**
 Lets decide which entries are archives itself. We can figure this out by extension of entry name.
 Later we will remove those entries from main archive, so keep such entries in a list.
 ```c#
@@ -43,7 +45,7 @@ if (entry.Name.EndsWith(".zip", StringComparison.InvariantCultureIgnoreCase)) {
 }
 ```
 
-### **Extracting entry's content to memory**
+## **Extracting entry's content to memory**
 
 Aspose.Zip allows extracting the content of zip entry into any writable stream, not only to a file. So, we can extract a nested archive to a memory stream.
 
@@ -65,7 +67,7 @@ Archive inner = new Archive(innerCompressed);
 ```
 
 
-### **Excluding entries** 
+## **Excluding entries** 
 
 We can remove an entry from zip archive with [particular method](https://apireference.aspose.com/zip/net/aspose.zip/archive/methods/deleteentry).
 

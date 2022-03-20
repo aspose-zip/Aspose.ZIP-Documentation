@@ -1,8 +1,11 @@
 ---
-title: ZIP/UnZIP Folders
+title: Zip or UnZip Folders in C# - Compress and Decompress Directory
+linktitle: ZIP/UnZIP Folders
 type: docs
 weight: 30
 url: /net/compressing-and-decompressing-folders/
+keywords: zip c# library, c# compress folder, c# uncompress zip, unzip c#, c# decompress zip
+description: Zip or UnZip Folders in C# and Compress or Decompress Directory programmatically with API
 ---
 
 Aspose.ZIP API lets you compress and decompress files without worrying about the underlying file structure. This article shows working with single as well as multiple file compression.

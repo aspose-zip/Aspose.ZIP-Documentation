@@ -28,7 +28,6 @@ This page contains release notes information for [Aspose.ZIP for .NET 22.3](http
 |Aspose.Zip.Cab.CabArchive|This class represents cab archive file.|
 |Aspose.Zip.Cab.CabEntry|Represents single file within cab archive.|
 |**The following public methods and properties were added:**|**Description**|
-| :- | :- |
 |Aspose.Zip.Cab.CabArchive.#ctor(Stream sourceStream)|Initializes a new instance of the CabArchive class and composes entries list can be extracted from the archive.|
 |Aspose.Zip.Cab.CabArchive.#ctor(string path)|Initializes a new instance of the CabArchive class and composes entries list can be extracted from the archive.|
 |Aspose.Zip.Cab.CabArchive.Entries|Gets entries of CabEntry type constituting the archive.|

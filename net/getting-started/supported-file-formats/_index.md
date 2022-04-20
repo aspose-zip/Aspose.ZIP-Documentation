@@ -18,5 +18,7 @@ The following table indicates the input and output file formats supported by As
 |[BZ2](https://docs.fileformat.com/compression/bz2/)|BZIP2|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[RAR](https://docs.fileformat.com/compression/rar/)|RAR|{{< emoticons/tick >}}| | |
 |XZ|XZ|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
+|Z|Unix compressed|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
+|CAB|Cabinet file|{{< emoticons/tick >}}| | |
 |[7z](https://docs.fileformat.com/compression/7z/)|7 ZIP|Partly|{{< emoticons/tick >}}|Aspose.ZIP can compress to 7z format within the LZMA, LZMA2 and BZip2 algorithms.|
 

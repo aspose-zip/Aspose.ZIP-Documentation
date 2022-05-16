@@ -19,6 +19,5 @@ The following table indicates the input and output file formats supported by As
 |[RAR](https://docs.fileformat.com/compression/rar/)|RAR|{{< emoticons/tick >}}| | |
 |XZ|XZ|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |Z|Unix compressed|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
-|CAB|Cabinet file|{{< emoticons/tick >}}| | |
-|[7z](https://docs.fileformat.com/compression/7z/)|7 ZIP|Partly|{{< emoticons/tick >}}|Aspose.ZIP can compress to 7z format within the LZMA, LZMA2 and BZip2 algorithms.|
-
+|CAB|Cabinet file|Partly| |Aspose.ZIP can extract CAB archives compressed with LZX and Deflate algorithms.|
+|[7z](https://docs.fileformat.com/compression/7z/)|7 ZIP|Partly|Partly|Aspose.ZIP can compress to 7z format with the LZMA, LZMA2 and BZip2 algorithms.|

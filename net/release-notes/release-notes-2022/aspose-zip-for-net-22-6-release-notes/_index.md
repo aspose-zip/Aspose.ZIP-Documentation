@@ -7,7 +7,7 @@ url: /net/aspose-zip-for-net-22-6-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes information for [Aspose.ZIP for .NET 22.5](https://downloads.aspose.com/zip/net/new-releases/aspose.zip-for-.net-22.6/).
+This page contains release notes information for [Aspose.ZIP for .NET 22.6](https://downloads.aspose.com/zip/net/new-releases/aspose.zip-for-.net-22.6/).
 
 {{% /alert %}} 
 
@@ -24,7 +24,6 @@ This page contains release notes information for [Aspose.ZIP for .NET 22.5](http
 |**The following public types were added:**|**Description**|
 | :- | :- |
 |Aspose.Zip.Saving.EnhancedDeflateCompressionSettings|Settings for Enhanced Deflate compression method.|
-
 |**The following public methods and properties were added:**|**Description**|
 |Aspose.Zip.SevenZip.SevenZipArchiveEntry.Open(string password = null)|Opens the entry for extraction and provides a stream with entry content.|
 |Aspose.Zip.SevenZip.SevenZipArchiveEntry.Extract(string path, string password = null)|Extracts the entry to the filesystem by the path provided.|

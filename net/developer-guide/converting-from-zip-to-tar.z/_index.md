@@ -9,7 +9,7 @@ Tar.gz is by far the most widespread compressed archive format in the Linux worl
 
 
 ## **Convertation**
-Aspose.ZIP API provides the [SaveGzipped method](https://apireference.aspose.com/zip/net/aspose.zip.tar.tararchive/savegzipped/methods/1) to compress a tar archive on the fly.  We can extract an entry from the ZIP archive to memory without saving it into intermediate storage and pass it into the tar archive right away.
+Aspose.ZIP API provides the [SaveGzipped method](https://reference.aspose.com/zip/net/aspose.zip.tar.tararchive/savegzipped/methods/1) to compress a tar archive on the fly.  We can extract an entry from the ZIP archive to memory without saving it into intermediate storage and pass it into the tar archive right away.
 
 {{% alert color="primary" %}} 
  

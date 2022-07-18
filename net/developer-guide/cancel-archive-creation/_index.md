@@ -8,7 +8,7 @@ url: /net/cancel-archive-creation/
 It may happen you want to cancel zip archive creation for various reasons. It just can take too long or you do not actually need some entries there.
 
 ## **Overview**
-There is an [EventsBag](https://apireference.aspose.com/zip/net/aspose.zip.saving/eventsbag) class which are container for archive-related events. Now it supports one event - [EntryCompressed](https://apireference.aspose.com/zip/net/aspose.zip.saving/eventsbag/events/entrycompressed). It raises after an archive entry has been compressed, and it cancelable. 
+There is an [EventsBag](https://reference.aspose.com/zip/net/aspose.zip.saving/eventsbag) class which are container for archive-related events. Now it supports one event - [EntryCompressed](https://reference.aspose.com/zip/net/aspose.zip.saving/eventsbag/events/entrycompressed). It raises after an archive entry has been compressed, and it cancelable. 
 
 ## **Canceling long archive creation**
 Lets say you want your ZIP archive to be composed in about a minute. 

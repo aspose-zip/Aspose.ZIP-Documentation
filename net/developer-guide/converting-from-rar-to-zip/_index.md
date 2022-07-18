@@ -8,7 +8,7 @@ url: /net/converting-from-rar-to-zip/
 If you want to convert RAR archive to ZIP read this article.
 
 ## **Convertation**
-Aspose.ZIP API provides [RarArchive](https://apireference.aspose.com/zip/net/aspose.zip.rar/rararchive) class to extract RAR archives. We can extract an entry to memory without saving it into intermediate storage and pass into ZIP archive right away.
+Aspose.ZIP API provides [RarArchive](https://reference.aspose.com/zip/net/aspose.zip.rar/rararchive) class to extract RAR archives. We can extract an entry to memory without saving it into intermediate storage and pass into ZIP archive right away.
 
 {{% alert color="primary" %}} 
 

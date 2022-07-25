@@ -74,10 +74,10 @@ Please review the example given below to understand this method of setting a lic
 
  // Instantiate the License class
 
-Aspose.Email.License license = new Aspose.Email.License();
+Aspose.ZIP.License license = new Aspose.ZIP.License();
 
 // Pass only the name of the license file embedded in the assembly
 
-license.SetLicense("Aspose.Email.lic");
+license.SetLicense("Aspose.ZIP.lic");
 
 {{< /highlight >}}

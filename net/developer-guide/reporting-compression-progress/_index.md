@@ -8,7 +8,7 @@ description: The compression process may take a long time. C# zip library provid
 ---
 
 ## **Progress Event Handler**
-The compression process may take a long time especially if the data size is huge. For zip archive, there is a [CompressionProgressed event](https://apireference.aspose.com/zip/net/aspose.zip/archiveentry/events/compressionprogressed) to stay posted. This event relies on [ProgressEventArgs](https://apireference.aspose.com/zip/net/aspose.zip/progresseventargs) which contains the number of proceeded bytes so far.
+The compression process may take a long time especially if the data size is huge. For zip archive, there is a [CompressionProgressed event](https://reference.aspose.com/zip/net/aspose.zip/archiveentry/events/compressionprogressed) to stay posted. This event relies on [ProgressEventArgs](https://reference.aspose.com/zip/net/aspose.zip/progresseventargs) which contains the number of proceeded bytes so far.
 This is how we can subscribe to this event using [lambda extression](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions):
 ```c#
 entry.CompressionProgressed += (s, e) => { 

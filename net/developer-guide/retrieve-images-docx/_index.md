@@ -24,7 +24,7 @@ Here is full HTML markup for the form:
 `Accept` attributes have been added for user convenience. 
 
 ### **Docx Structure** 
-[Docx documet](https://docs.fileformat.com/word-processing/docx/) is a zip archive itself. If it has any embedded images they are located within 'word/media' folder after extraction. So, the user provides the docx file and submits the form. On the server side we need to compose an appropriate `OnPost` method to `Index.cshtml.cs` source. Within this method we extract [zip archive](https://apireference.aspose.com/zip/net/aspose.zip/archive) using [the appropriate constructor](https://apireference.aspose.com/zip/net/aspose.zip/archive/constructors/1).  Here is the draft of the method:
+[Docx documet](https://docs.fileformat.com/word-processing/docx/) is a zip archive itself. If it has any embedded images they are located within 'word/media' folder after extraction. So, the user provides the docx file and submits the form. On the server side we need to compose an appropriate `OnPost` method to `Index.cshtml.cs` source. Within this method we extract [zip archive](https://reference.aspose.com/zip/net/aspose.zip/archive) using [the appropriate constructor](https://reference.aspose.com/zip/net/aspose.zip/archive/constructors/1).  Here is the draft of the method:
 ```c#
 public void OnPost(IFormFile uploadedFile) {
     using (Archive archive = new Archive(uploadedFile.OpenReadStream())) {
@@ -40,7 +40,7 @@ public void OnPost(IFormFile uploadedFile) {
 ```
 
 ### **Page Model and Image Rendering**
-After extraction we need to verify that extracted entry is actually an image. For this purpose we can use [Image.CanLoad](https://apireference.aspose.com/imaging/net/aspose.imaging/image/methods/canload) method. If it approves the valid image, we need to store bytes of it within the page model to render that picture. Add property `public List<byte[]> ImageBytes { get; private set; }` to `IndexModel`. 
+After extraction we need to verify that extracted entry is actually an image. For this purpose we can use [Image.CanLoad](https://reference.aspose.com/imaging/net/aspose.imaging/image/methods/canload) method. If it approves the valid image, we need to store bytes of it within the page model to render that picture. Add property `public List<byte[]> ImageBytes { get; private set; }` to `IndexModel`. 
 We fill this list with extracted image bytes. To show them on the web page we use [data URI](https://en.wikipedia.org/wiki/Data_URI_scheme) with convertion image bytes to base64 string.
 Here is a rendering Razor code at `Index.cshtml`
 ```c#

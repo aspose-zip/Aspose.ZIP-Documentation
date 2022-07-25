@@ -60,7 +60,7 @@ MemoryStream innerCompressed = new MemoryStream();
 entry.Open().CopyTo(innerCompressed); 
 ```
 
-After that innerCompressed stream contains the inner archive itself. The [Archive constructor](https://apireference.aspose.com/zip/net/aspose.zip/archive/constructors/1) allows decompressing the stream provided.
+After that innerCompressed stream contains the inner archive itself. The [Archive constructor](https://reference.aspose.com/zip/net/aspose.zip/archive/constructors/1) allows decompressing the stream provided.
 So, we can extract it as well:
 ```c#
 Archive inner = new Archive(innerCompressed);
@@ -69,7 +69,7 @@ Archive inner = new Archive(innerCompressed);
 
 ## **Excluding entries** 
 
-We can remove an entry from zip archive with [particular method](https://apireference.aspose.com/zip/net/aspose.zip/archive/methods/deleteentry).
+We can remove an entry from zip archive with [particular method](https://reference.aspose.com/zip/net/aspose.zip/archive/methods/deleteentry).
 
 ```c#
 foreach (ArchiveEntry e in entriesToDelete) { outer.DeleteEntry(e); }

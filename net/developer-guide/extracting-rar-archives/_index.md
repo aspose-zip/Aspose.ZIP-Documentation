@@ -7,7 +7,7 @@ url: /net/extracting-rar-archives/
 
 
 ## **Overview**
-Aspose.ZIP API lets extract archives in your applications without the need of any other 3rd party applications. Aspose.ZIP API provides [RarArchive](https://apireference.aspose.com/zip/net/aspose.zip.rar/rararchive) class to work with RAR archives.  API provides the [RarArchiveEntry](https://apireference.aspose.com/zip/net/aspose.zip.rar/rararchiveentry)class to represents a single file within the RAR archive.
+Aspose.ZIP API lets extract archives in your applications without the need of any other 3rd party applications. Aspose.ZIP API provides [RarArchive](https://reference.aspose.com/zip/net/aspose.zip.rar/rararchive) class to work with RAR archives.  API provides the [RarArchiveEntry](https://reference.aspose.com/zip/net/aspose.zip.rar/rararchiveentry)class to represents a single file within the RAR archive.
 
 {{% alert color="primary" %}} 
 

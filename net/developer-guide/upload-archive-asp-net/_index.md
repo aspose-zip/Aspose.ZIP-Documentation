@@ -29,7 +29,7 @@ Here is full HTML markup for the form:
 Some validation attributes have been added as well. 
 
 ## **Handling user request** 
-So, the user provides the zip archive with images and submits the form. How to handle his request on the server-side? Using ASP.NET approach we need to compose an appropriate `OnPost` method to `Index.cshtml.cs` source. Within this method we extract [zip archive](https://apireference.aspose.com/zip/net/aspose.zip/archive) using [the appropriate constructor](https://apireference.aspose.com/zip/net/aspose.zip/archive/constructors/1), then rotate each image. Here is the draft of the method:
+So, the user provides the zip archive with images and submits the form. How to handle his request on the server-side? Using ASP.NET approach we need to compose an appropriate `OnPost` method to `Index.cshtml.cs` source. Within this method we extract [zip archive](https://reference.aspose.com/zip/net/aspose.zip/archive) using [the appropriate constructor](https://reference.aspose.com/zip/net/aspose.zip/archive/constructors/1), then rotate each image. Here is the draft of the method:
 ```c#
 public void OnPost(IFormFile uploadedFile, int rotateDegree) {
     using (Archive archive = new Archive(uploadedFile.OpenReadStream())) {

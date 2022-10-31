@@ -20,6 +20,20 @@ Aspose.ZIP for .NET supports any 32-bit or 64-bit operating system where the .NE
 - Microsoft Windows 8, 8.1 ( x64, x86)
 - Microsoft Windows 10 ( x64, x86)
 - Microsoft Windows 11
+### **Linux**
+Aspose.ZIP for .NET supports Linux that offers .NET Core 2.0 and above installation. They include, but not limited to:
+- Red Hat Enterprise Linux
+- CentOS
+- Oracle Linux
+- CentOS
+- Fedora
+- Debian
+- Ubuntu
+- Linux Mint
+- openSUSE
+- SUSE Enterprise Linux (SLES)
+### **Mac OS**
+Aspose.ZIP for .NET supports Mac OS X 10.12 and above.
 ## **Supported Frameworks**
 Aspose.ZIP for .NET supports .NET frameworks as follows:
 ### **.NET Frameworks**

@@ -1,7 +1,7 @@
 ---
 title: Aspose.ZIP for .NET 23.1 Release Notes
 type: docs
-weight: 30
+weight: 20
 url: /net/aspose-zip-for-net-23-1-release-notes/
 ---
 

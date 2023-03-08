@@ -4,7 +4,7 @@ type: docs
 weight: 43
 url: /net/download-archive-from-asp.net-web-app/
 aliases: [/net/send-in-choosen-format/]
-keywords: download zip file c# asp.net, zip c# library
+keywords: download zip file c# asp.net, archive asp.net library
 description: C# Zip library lets you to reduce or compress data size which is helpful for your ASP.NET or .NET web application to transfer the files on the internet quickly.
 ---
 
@@ -78,7 +78,7 @@ So for the requested archive type we must prepare the corresponding archive from
 
 ## **Generating sample data**
 
-We use Aspose.BarCode library to generate BMP image of barcode using [this instruction](https://docs.aspose.com/barcode/net/two-dimensional-2d-barcodes/).
+We use Aspose.BarCode library to generate BMP image of barcode using [this instruction](https://docs.aspose.com/barcode/net/pdf417-and-macropdf417-barcode/).
 The snippet of data stream generation:
 {{< gist "aspose-zip-gists" "d69b478235af94b9860be5443f24d031" "GenerateBarcodeToCompress.cs" >}}
 

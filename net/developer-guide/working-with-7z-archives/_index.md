@@ -29,11 +29,11 @@ The AES-256 is the only possible encryption method for the 7z archive.
 
 
 ### **7-Zip Archive with LZMA Compression**
-The following code example demonstrates how to create a 7z archive with LZMA compression.
+The following code example demonstrates how to create a 7z archive with LZMA compression and AES encryption.
 
 {{< gist "aspose-com-gists" "42ee14864d84aeae8619284450c3d628" "Examples-CSharp-WorkingWithSevenZip-ArchiveWithEncryptedEntry-ArchiveWithEncryptedEntry.cs" >}}
 
-
+Similarly you can compose 7z archive with BZip2, PPMd and LZMA2 compression method, or store files without compression.
 ### **Setting Different Password for Entries**
 The following code example demonstrates how to create an archive with entries encrypted with different passwords for each entry.
 
@@ -41,7 +41,7 @@ The following code example demonstrates how to create an archive with entries en
 
 ### **Extraction of 7z archives**
 {{% alert color="primary" %}} 
-Now Aspose.ZIP can extract LZMA, LZMA2, BZip2 compressed archives.
+Now Aspose.ZIP can extract LZMA, LZMA2, BZip2 and PPMd compressed archives.
 {{% /alert %}} 
 The following code example demonstrates how to extract 7z archive to directory.
 {{< gist "aspose-com-gists" "42ee14864d84aeae8619284450c3d628" "Examples-CSharp-WorkingWithSevenZip-ExtractArchviveByPath.cs" >}}

@@ -9,7 +9,7 @@ If you want to convert the ZIP archive to 7z read this article.
 
 {{% alert color="primary" %}} 
 
-Aspose.Zip now allows composing 7z archive with LZMA, LZMA2, and BZip2 compression algorithms.
+Aspose.Zip now allows composing 7z archive with LZMA, LZMA2, PPMd and BZip2 compression algorithms.
 
 {{% /alert %}} 
 

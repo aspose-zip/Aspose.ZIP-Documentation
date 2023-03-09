@@ -1,0 +1,13 @@
+---
+title: Multi-volume archives
+second_title: Aspose.ZIP for .NET
+articleTitle: Multi-volume archives
+linktitle: Multi-volume archives
+type: docs
+weight: 71
+url: /net/multi-volume-archives/
+keywords: multi volume archive c#, split archive c#
+description: Compose multi-volume archive with .net library
+---
+
+ZIP and 7Z archvives can be split into several pieces.

@@ -1,7 +1,7 @@
 ---
 title: Compose Multi-volume 7z Archive
 type: docs
-weight: 79
+weight: 11
 url: /net/multi-volume-7z/
 keywords: multi volume 7z c#, split 7z c#
 description: Compose multi-volume 7z archive with .net library

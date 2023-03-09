@@ -1,7 +1,7 @@
 ---
 title: Converting RAR to ZIP
 type: docs
-weight: 69
+weight: 10
 url: /net/converting-from-rar-to-zip/
 ---
 

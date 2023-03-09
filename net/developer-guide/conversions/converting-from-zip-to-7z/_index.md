@@ -1,7 +1,7 @@
 ---
 title: Converting ZIP to 7z
 type: docs
-weight: 66
+weight: 20
 url: /net/converting-from-zip-to-7z/
 ---
 

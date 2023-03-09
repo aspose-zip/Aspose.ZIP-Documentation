@@ -1,7 +1,7 @@
 ---
 title: Converting ZIP to tar.gz
 type: docs
-weight: 64
+weight: 30
 url: /net/converting-from-zip-to-tar.gz/
 ---
 

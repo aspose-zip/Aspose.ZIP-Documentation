@@ -1,10 +1,10 @@
 ---
 title: Convert archive from one to another
-articleTitle: Archive convertion in C#
-linktitle: Archive convertion
+articleTitle: Archive conversion in C#
+linktitle: Archive conversion
 type: docs
 weight: 90
-url: /net/archive-convertion/
+url: /net/archive-conversion/
 ---
 
 Using Aspose.ZIP you can convert archives in memory without saving them to disk.

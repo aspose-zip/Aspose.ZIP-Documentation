@@ -3,7 +3,7 @@ title: Reporting progress of compression
 type: docs
 weight: 44
 url: /net/reporting-compression-progress/
-keywords: C# zip library, compression progress, C# 7zip library
+keywords: C# zip library, compression progress, archive events
 description: The compression process may take a long time. C# zip library provides events to report the progress of compression and progress percentage.
 ---
 

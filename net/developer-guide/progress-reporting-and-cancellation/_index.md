@@ -3,7 +3,7 @@ title: Progress reporting and cancellation
 type: docs
 weight: 44
 url: /net/report-progress-and-cancel/
-linktitle: Progress reporting and cancellation
+linktitle: Archive events
 keywords: interrupt archive composition, report compression progress
 description: C# API lets you handle events on archive composition.
 ---

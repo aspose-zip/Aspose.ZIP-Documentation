@@ -3,7 +3,7 @@ title: Working with typical for Linux and Unix archives
 type: docs
 weight: 64
 url: /net/archives-for-Unix-like-systems/
-linktitle: Typical archives for Unix-like plarform
+linktitle: Typical archives for Unix-like platform
 keywords: c# linux archive library
 description: C# API lets you work with creating and managing Linux and Unix archives in your applications without the need of any other 3rd party applications and provides various methods to perform operations on archives.
 ---

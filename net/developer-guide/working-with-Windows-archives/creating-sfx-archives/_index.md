@@ -20,7 +20,7 @@ If you want to start extraction automatically specify `-autoExtract` command-lin
 ```cmd
 C:\>archive.exe -autoExtract -password:T0p$ecret
 ```
-#### **Command line options for self-extracting archive**
+### **Command line options for self-extracting archive**
 |**Option**|**Meaning**|**Sample**|
 | :- | :- | :- |
 |-autoExtract|<p>Primary option - without it decompression does not start.</p><p>Extraction starts automatically, other options apply.</p>|```sfx.exe -autoExtract```|

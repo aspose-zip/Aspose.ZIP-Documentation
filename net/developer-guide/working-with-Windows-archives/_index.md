@@ -1,7 +1,7 @@
 ---
 title: Typical archives for Windows platform
 type: docs
-weight: 67
+weight: 60
 url: /net/archives-for-Windows-platform/
 linktitle: Distinctive archives for Windows
 keywords: c# windows archive library

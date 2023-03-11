@@ -1,7 +1,7 @@
 ---
 title: Password protection
 type: docs
-weight: 40
+weight: 30
 url: /net/password-protection/
 linktitle: Encryption and decryption
 keywords: AES archive library, ZipCrypto .net library

@@ -1,7 +1,7 @@
 ---
 title: Working with typical for Linux and Unix archives
 type: docs
-weight: 64
+weight: 50
 url: /net/archives-for-Unix-like-systems/
 linktitle: Typical archives for Unix-like platform
 keywords: c# linux archive library

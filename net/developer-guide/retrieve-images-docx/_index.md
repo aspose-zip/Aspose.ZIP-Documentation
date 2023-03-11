@@ -1,7 +1,7 @@
 ---
 title: Retrieve images from *.docx Word document
 type: docs
-weight: 57
+weight: 90
 url: /net/retrieve-images-from-docx/
 ---
 

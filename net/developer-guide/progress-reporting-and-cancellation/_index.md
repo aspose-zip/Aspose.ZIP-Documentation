@@ -1,7 +1,7 @@
 ---
 title: Progress reporting and cancellation
 type: docs
-weight: 44
+weight: 70
 url: /net/report-progress-and-cancel/
 linktitle: Archive events
 keywords: interrupt archive composition, report compression progress

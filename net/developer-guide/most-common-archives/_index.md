@@ -1,5 +1,5 @@
 ---
-title: The most common formats: ZIP, RAR, 7z
+title: The most common formats - ZIP, RAR, 7z
 type: docs
 weight: 20
 url: /net/popular-archive-formats/

@@ -12,4 +12,4 @@ This section provide samples of archive encryption using Aspose.ZIP library.
 <ul>
  <li><a href="../password-protecting-archives/">Guide on ZIP password protection</a></li>
  <li><a href="../unlock-zip-password/">Automate guessing password for encrypted ZIP</a></li>
-</p>
+</ul>

@@ -20,6 +20,7 @@ This page contains release notes information for [Aspose.ZIP for .NET 23.4](http
 |ZIPNET-1008|Fix out of range exception while composing xz archive.|Bug|
 |ZIPNET-1004|Parallelize xz composition.|Feature|
 |ZIPNET-998|Provide comment for split ZIP archive.|Enhancement|
+|ZIPNET-984|Introduce ExtractToDirectory method for IArchive interface.|Enhancement|
 
 ## **Public API and Backwards Incompatible Changes**
 |**The following public methods and properties were added:**|**Description**|
@@ -27,3 +28,4 @@ This page contains release notes information for [Aspose.ZIP for .NET 23.4](http
 |Aspose.Zip.Xz.Settings.CompressionThreads|Gets or sets compression thread count. If the value greater than 1, multithreading compression will be used.|
 |Aspose.Zip.Saving.SplitArchiveSaveOptions.ArchiveComment|Gets or sets optional comment for the Zip file.|
 |Aspose.Zip.Lzip.LzipArchiveSettings.CompressionThreads|Gets or sets compression thread count. If the value greater than 1, multithreading compression will be used.|
+|Aspose.Zip.IArchive.ExtractToDirectory(string destinationDirectory)|Extracts all the files in the archive to the directory provided.|
